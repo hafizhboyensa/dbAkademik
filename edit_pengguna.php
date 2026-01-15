@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Profil</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
@@ -35,7 +35,7 @@
     if(isset($_POST['submit'])){
         $update = mysqli_query($koneksi, "UPDATE pengguna SET email='$_POST[email]', password='$_POST[password]', nama_lengkap='$_POST[nama_lengkap]' WHERE id=$_GET[id]");
         if($update){
-            header ("Location:profil.php");
+            header ("Location:index.php");
         }else{
             print "Maaf, data gagal diubah";
         }
