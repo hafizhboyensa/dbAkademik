@@ -15,19 +15,21 @@
                 <div class="card-body">
                     <form method="POST" action="gbproses_pengguna.php">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
+                            <label>Nama Lengkap</label>
                             <input type="text" name="nama_lengkap" class="form-control" id="nama_user" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control" id="username" required>
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" id="email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">password</label>
+                            <label>Password</label>
                             <input type="password" name="password" class="form-control" id="password" required>
                         </div>
-                        <button type="submit" name="daftar" class="btn btn-primary">Daftar</button>
-                        <a href="index.php"><button type="button" name="button" class="btn btn-secondary">Login di sini</button></a>
+                        <div class="d-flex gap-2">
+                            <button type="submit" name="daftar" class="btn btn-primary w-50">Daftar</button>
+                            <a href="index.php" class="btn btn-secondary w-50">Login di sini</button></a>
+                        </div>
                     </form>
                 </div>
             </div>

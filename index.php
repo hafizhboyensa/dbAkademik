@@ -6,11 +6,10 @@
 
 </head>
 <body>
-
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="card shadow col-md-6">
-                <div class="card-header">
+                <div class="card-header text-center">
                     <h1>Login</h1>
                 </div>
                 <div class="card-body">
@@ -25,18 +24,19 @@
                             }
                         }
                     ?>
-
                     <form method="POST" action="gbproses_login.php">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email</label>
-                            <input type="text" name="email" class="form-control" id="email" required>
+                            <label>Email</label>
+                            <input type="email" name="email" class="form-control" id="email" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                            <label>Password</label>
                             <input type="password" name="password" class="form-control" id="password" required>
                         </div>
-                        <button type="submit" name="masuk" class="btn btn-primary">Masuk</button>
-                        <a href="daftar.php"><button type="button" name="button" class="btn btn-secondary">Daftar di sini</button></a>
+                        <div class="d-flex gap-2">
+                            <button type="submit" name="masuk" class="btn btn-primary w-50">Login</button>
+                            <a href="daftar.php" class="btn btn-secondary w-50">Daftar di sini</button></a>
+                        </div>
                     </form>
                 </div>
             </div>
