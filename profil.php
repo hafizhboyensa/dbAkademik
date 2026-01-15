@@ -19,7 +19,8 @@
         </form>
     </nav>
 
-    <div class="container">
+    <div class="container my-5">
+        <a href="edit_pengguna.php"><button class="btn btn-primary" type="button">Edit Profil</button></a>
         <a href="logout.php"><button class="btn btn-danger" type="button">Logout</button></a>
     </div>
 </div>

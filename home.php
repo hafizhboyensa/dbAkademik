@@ -20,7 +20,8 @@
 </nav>
 
 <nav class="container my-5">
-    <h1>Selamat Datang</h1>
+    <h1>Selamat Datang di Program DB Akademik</h1>
+    <h5>Muhammad Hafizh Boyensa (2411082014)</h5>
 </nav>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

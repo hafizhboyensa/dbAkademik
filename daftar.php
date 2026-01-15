@@ -13,21 +13,21 @@
                     <h1>Daftar</h1>
                 </div>
                 <div class="card-body">
-                    <form method="POST" action="gbproses_user.php">
+                    <form method="POST" action="gbproses_pengguna.php">
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
-                            <input type="text" name="nama_user" class="form-control" id="nama_user" required>
+                            <input type="text" name="nama_lengkap" class="form-control" id="nama_user" required>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Username</label>
-                            <input type="text" name="username" class="form-control" id="username" required>
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" name="email" class="form-control" id="username" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label">password</label>
                             <input type="password" name="password" class="form-control" id="password" required>
                         </div>
                         <button type="submit" name="daftar" class="btn btn-primary">Daftar</button>
-                        <a href="index.php"><button type="button" name="button" class="btn btn-primary">Masuk</button></a>
+                        <a href="index.php"><button type="button" name="button" class="btn btn-secondary">Login di sini</button></a>
                     </form>
                 </div>
             </div>
